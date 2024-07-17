@@ -1,2 +1,19 @@
-#输入返回到服务器的名称
-Server: lobby1
+
+# 命令的基本信息
+name: "hub"
+description: "Back to lobby."
+usageMessage: "/hub [server]"
+permission: "work.fzhdev.hubcmd"
+aliases:
+  - "lobby"
+  - "l"
+
+# 返回的服务器列表
+servers:
+  - lobby1
+  - lobby2
+
+# 返回服务器显示的信息，<from>是转服前的服务器，<to>是要转服的服务器
+messages:
+  - "§a匹配服务器中"
+  - "§a正在将你从 <from> 转移到 <to>"

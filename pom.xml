@@ -11,7 +11,7 @@
     <repositories>
         <repository>
             <id>waterdog-repo</id>
-            <url>https://repo.waterdog.dev/artifactory/main</url>
+            <url>https://repo.waterdog.dev/releases</url>
         </repository>
     </repositories>
 
@@ -19,9 +19,8 @@
         <dependency>
             <groupId>dev.waterdog.waterdogpe</groupId>
             <artifactId>waterdog</artifactId>
-            <version>1.2.3-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Waterdog.jar</systemPath>
+            <version>2.0.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
